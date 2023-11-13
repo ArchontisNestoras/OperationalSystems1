@@ -1,0 +1,5 @@
+----------------------10000---4----------------------------
+|Random-Read	(done:2500, found:2500): 0.000400 sec/op; 2500.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:2500, found:2500): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:2500, found:2500): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:2500, found:2500): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)

@@ -1,0 +1,26 @@
+----------------------writeread_1000_4_R-------------------------------
+|Random-Write	(done:1000): 0.000000 sec/op; inf writes/sec(estimated); cost:0.000(sec);
+|Random-Read	(done:250, found:0): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:250, found:0): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:250, found:0): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:250, found:0): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+real	0m0.036s
+user	0m0.000s
+sys	0m0.016s
+
+----------------------writeread_1000_4_nR-------------------------------
+|Random-Write	(done:1000): 0.000000 sec/op; inf writes/sec(estimated); cost:0.000(sec);
+|Random-Read	(done:250, found:250): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:250, found:250): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:250, found:250): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:250, found:250): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+real	0m0.031s
+user	0m0.007s
+sys	0m0.007s
+
+
+
+
+
+
+

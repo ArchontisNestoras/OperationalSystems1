@@ -1,0 +1,133 @@
+----------------------write_1000000_1_80_20-------------------------------
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:200000, found:200000): 0.000015 sec/op; 66666.7 reads /sec(estimated); cost:3.000(sec)
+
+|Random-Write	(done:800000): 0.000013 sec/op; 80000.0 writes/sec(estimated); cost:10.000(sec);
+|Random-Read	(done:200000, found:200000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:2.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:200000, found:200000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:2.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:200000, found:200000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:2.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:200000, found:200000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:2.000(sec)
+
+Average time: 11.4142s
+----------------------write_1000000_2_80_20-------------------------------
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:100000, found:100000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:100000, found:100000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:1.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:100000, found:100000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:100000, found:100000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:1.000(sec)
+
+|Random-Write	(done:800000): 0.000013 sec/op; 80000.0 writes/sec(estimated); cost:10.000(sec);
+|Random-Read	(done:100000, found:100000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:100000, found:100000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:1.000(sec)
+
+|Random-Write	(done:800000): 0.000013 sec/op; 80000.0 writes/sec(estimated); cost:10.000(sec);
+|Random-Read	(done:100000, found:100000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:100000, found:100000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+|Random-Write	(done:800000): 0.000013 sec/op; 80000.0 writes/sec(estimated); cost:10.000(sec);
+|Random-Read	(done:100000, found:100000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:100000, found:100000): 0.000010 sec/op; 100000.0 reads /sec(estimated); cost:1.000(sec)
+
+Average time: 12.025s
+-----------------------write_1000000_4_80_20------------------------------
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:50000, found:50000): 0.000040 sec/op; 25000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:50000, found:50000): 0.000040 sec/op; 25000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:50000, found:50000): 0.000040 sec/op; 25000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:50000, found:50000): 0.000020 sec/op; 50000.0 reads /sec(estimated); cost:1.000(sec)
+
+Average time: 11.7084s
+-----------------------write_1000000_10_80_20------------------------------
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:20000, found:20000): 0.000100 sec/op; 10000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+|Random-Write	(done:800000): 0.000011 sec/op; 88888.9 writes/sec(estimated); cost:9.000(sec);
+|Random-Read	(done:20000, found:20000): 0.000100 sec/op; 10000.0 reads /sec(estimated); cost:2.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000050 sec/op; 20000.0 reads /sec(estimated); cost:1.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+|Random-Read	(done:20000, found:20000): 0.000000 sec/op; inf reads /sec(estimated); cost:0.000(sec)
+
+Average time: 12.4234s
